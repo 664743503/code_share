@@ -1,0 +1,12 @@
+1.创建setup.py
+    参考https://docs.python.org/3/distutils/setupscript.html
+2.构建模块
+    python3 setup.py build
+3.生成发布压缩包
+    python3 setup.py sdist
+4.其他人安装模块
+    tar zxvf package_message-1.0.tar.gz
+    sudo python3 setup.py install
+5.其他人卸载模块
+    cd /usr/local/lib/python3.?/dist-packages/
+    sudo rm -r package_message
